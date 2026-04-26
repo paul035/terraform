@@ -19,7 +19,7 @@ resource "aws_instance" "example" {
   key_name = "your-key-pair-name" # Optional but needed for SSH
 
   tags = {
-    name = "my-ec2-instance"
+    Name = "my-ec2-instance"
   }
 }
 
