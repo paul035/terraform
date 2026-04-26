@@ -1,14 +1,6 @@
 ## @author ankur.pal
 ## Blog: paulsofts.com
 
-variable "ami_value" {
-  description = "Value for AMI"
-}
-
-variable "instance_type_value" {
-  description = "Value for instance type"
-}
-
 provider "aws" {
     region = "us-east-1"
 }
